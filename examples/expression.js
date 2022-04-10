@@ -1,5 +1,5 @@
 let hello = #{
-    "Hello".to_string()
+    String::from("Hello")
 } -> String;
 
 console.log(hello);

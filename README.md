@@ -4,6 +4,7 @@ Wird allows to write Javascript with inlined Rust that will later become Wasm
 ## Usage
 You can inline Rust using `#{...};` syntax, inside these you can define functions, structs, etc.\
 Expressions are also allowed by annotating the return type `#{...} -> T;`, they can capture Js variables by annotating which variables are captured along with their type `#[a: A, b: B]{...} -> T;`\
+**Note:** to export function to Js you have to add `#[wasm]` to it and make it `pub`\
 Check out `examples`
 
 After writing code you can *compile* it using `wird`:\
