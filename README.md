@@ -21,4 +21,4 @@ You can also quickly host your files with `wird host`
 `cargo install wird`
 
 ## Work in progress
-Altough it compiles just fine there are still missing a lot of features, and it shouldn't be used in production yet
+Although it compiles just fine there are still missing a lot of features, and it shouldn't be used in production yet
